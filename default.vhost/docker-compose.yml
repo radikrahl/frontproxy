@@ -6,7 +6,6 @@ networks:
 
 services:
   web:
-    # image: hello-world
     build:
       context: ./default
       dockerfile: Dockerfile
