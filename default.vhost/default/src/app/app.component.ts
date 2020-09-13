@@ -11,12 +11,12 @@ export class AppComponent {
   public get links(): Array<{ url: string, image: string }> {
     let data = [
       {
-        url: 'https://dashboard.andreaskrahl.de',
-        image: 'https://docs.traefik.io/assets/img/traefik.logo.png'
-      },
-      {
         url: 'https://blog.andreaskrahl.de',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ghost-Logo.svg/2000px-Ghost-Logo.svg.png'
+      },
+      {
+        url: 'https://dashboard.andreaskrahl.de',
+        image: 'https://docs.traefik.io/assets/img/traefik.logo.png'
       },
       {
         url: 'http://test.andreaskrahl.de',
