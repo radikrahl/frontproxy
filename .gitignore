@@ -1,4 +1,4 @@
 traefik/letsencrypt/
 traefik/.env
 default.vhost/app
-ghost2
+ghost
