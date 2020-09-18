@@ -6,10 +6,7 @@ networks:
 
 services:
   web:
-    # image: hello-world
-    build:
-      context: ./default
-      dockerfile: Dockerfile
+    image: hello-world
     restart: unless-stopped
     networks:
       - traefik_webgateway
